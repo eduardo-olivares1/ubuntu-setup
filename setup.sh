@@ -4,3 +4,4 @@
 ./system/system.sh
 
 # Install user prefrences and packages
+./user/user.sh
