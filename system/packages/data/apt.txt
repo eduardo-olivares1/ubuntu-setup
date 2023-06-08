@@ -1,0 +1,9 @@
+htop
+curl
+tldr
+sl
+tree
+clamav
+clamav-daemon
+clamtk
+timeshift
