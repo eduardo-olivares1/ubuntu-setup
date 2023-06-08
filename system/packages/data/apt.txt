@@ -12,3 +12,4 @@ nodejs
 npm
 python3
 python2
+vim
