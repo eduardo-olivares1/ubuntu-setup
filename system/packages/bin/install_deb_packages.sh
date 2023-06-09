@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #Install deb packages from URL
-deb_packages="../data/deb.txt"
+MY_PATH="$(dirname -- "${BASH_SOURCE[0]}")"
+deb_packages="${MY_PATH}/../data/deb.txt"
 while IFS= read -r line
 do  
     #Create temp forlder in /tmp/tmp.UUID
