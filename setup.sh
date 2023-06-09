@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update
-sudo apt install update && sudo apt install upgrade
+sudo apt-get update && sudo apt apt-get upgrade
 
 # Install system wide prefrences and packages
 ./system/system.sh
