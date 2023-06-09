@@ -13,7 +13,7 @@ quickly reinstall my favorites.
 - snap
 
 ## Roadmap
-- [ ] Setup system-wide prefrences
-- [ ] Setup user prefrences
-- [ ] Finalize parent .sh script
+- [X] Setup system-wide prefrences
+- [X] Setup user prefrences
+- [X] Finalize parent .sh script
 - [ ] Create CLI w/ Python
