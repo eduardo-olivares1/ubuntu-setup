@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Install apt packages
+echo "Installing apt packages..."
 MY_PATH="$(dirname -- "${BASH_SOURCE[0]}")"
 
 apt_packages="${MY_PATH}/../data/apt.txt"

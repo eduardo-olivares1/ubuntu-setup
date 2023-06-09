@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Install deb packages from URL
+echo "Installing deb packages from URL..."
 MY_PATH="$(dirname -- "${BASH_SOURCE[0]}")"
 deb_packages="${MY_PATH}/../data/deb.txt"
 while IFS= read -r line

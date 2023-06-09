@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Install snap packages
+echo "Installing snap packages..."
 MY_PATH="$(dirname -- "${BASH_SOURCE[0]}")"
 snap_packages="${MY_PATH}/../data/snap.txt"
 while IFS= read -r line
