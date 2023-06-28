@@ -92,3 +92,28 @@ set background=dark
 
 " Set the color scheme.
 colorscheme molokai
+
+" set terminal size
+set termwinsize=10x0
+
+" Create terminal at start
+below terminal
+
+" Netrw
+let g:netrw_banner = 0
+
+let g:netrw_liststyle = 3
+
+let g:netrw_browse_split = 4
+
+let g:netrw_altv = 1
+
+let g:netrw_winsize = 25
+
+augroup ProjectDrawer
+
+  autocmd!
+
+  autocmd VimEnter * :Vexplore
+
+augroup END
