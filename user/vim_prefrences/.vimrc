@@ -99,9 +99,6 @@ colorscheme molokai
 " set terminal size
 set termwinsize=10x0
 
-" Create terminal at start
-below terminal
-
 " Netrw
 let g:netrw_banner = 0
 
@@ -117,6 +114,10 @@ augroup ProjectDrawer
 
   autocmd!
 
-  autocmd VimEnter * :Vexplore
-
+  autocmd VimEnter * 
+  	\ Vexplore |
+  	\ wincmd l |
+    \ execute "below terminal" |
+    \ wincmd k
+    
 augroup END
